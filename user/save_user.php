@@ -26,7 +26,7 @@ $sql_connection->query("INSERT INTO users(NAME,DISTRICT_ID,PHONE_NUMBER,PASSWORD
 
 $message = "Hello ".$pName.", Thank you for creating an account with NEMA tree tracker. You will login with your email and your password, Our team leader will contact you shortly for more information" ; 
 
-$gateway    = new AfricasTalkingGateway("sandbox", "ead2dd2d483793037244cdfe3bab580f5b881fd39d36fa4cddd0c8d427a02f64");
+$gateway    = new AfricasTalkingGateway("sandbox", "19ed6b3869b3084e38f880d4d4ec287d576011b978afc5493fa96f91c56a1f80");
 
 $gateway->sendMessage("+256786964345", $message); 
 

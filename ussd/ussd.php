@@ -80,7 +80,7 @@ switch ($level) {
 
 	case 3: 
 
-	     if($inputArray[1]   ==  1) {//he wants to register// // 0*1*Charles
+	     if($inputArray[1]   ==  1) {
 
 		 	$user_name = $inputArray[2];
 
@@ -120,7 +120,7 @@ switch ($level) {
 		 	    $sqliCon->query("INSERT INTO trees(member_id,number_of_trees)VALUES('$member_id','$number_of_trees')");
 
 		 	    $message = "Hello $member_name, Thank you for conserving the climate. You have recorded $number_of_trees tree(s)";
-			    $apikey     = "8ca31226367ab4abde28fc34a62a2ef852d0e730b66c02348c98ed7499ca087c";			 
+			    $apikey     = "19ed6b3869b3084e38f880d4d4ec287d576011b978afc5493fa96f91c56a1f80";			 
 			    $gateway    = new AfricasTalkingGateway("sandbox", $apikey,"sandbox");
 			    $gateway->sendMessage($phone_number, $message);
 		 	    echo "END $message";
@@ -146,21 +146,5 @@ switch ($level) {
 }
 
 
-
-
-// Welcome message 
-
-// Choose an option 
-
-//   1. Register 
-//   2. Add a tree 
- 
-
-// 1.  WHat is your name?
-//     send them sms that they have registered 
-
-// 2.  Check id they have registered 
-//     Enter number of of trees 
-//      Send a thank you message
 
 
