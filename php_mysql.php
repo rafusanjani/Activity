@@ -1,5 +1,5 @@
 <?php
-$sql_connection = new mysqli("localhost","root","","climate's"); 
+$sql_connection = new mysqli("localhost","root","","tree_trackerr"); 
 
 $sql_connection->query("CREATE TABLE IF NOT EXISTS districts(ID INT(11) NOT NULL AUTO_INCREMENT, PRIMARY KEY(ID), NAME VARCHAR(30) NOT NULL UNIQUE)");
 
