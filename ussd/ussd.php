@@ -89,7 +89,7 @@ switch ($level) {
 		 	if($saveUser){
 
 		 		$message = "Hello ".$user_name." Thank you for registering with Climate (U) ltd";		        
-				$apikey     = "8ca31226367ab4abde28fc34a62a2ef852d0e730b66c02348c98ed7499ca087c";			 
+				$apikey     = "19ed6b3869b3084e38f880d4d4ec287d576011b978afc5493fa96f91c56a1f80";			 
 				$gateway    = new AfricasTalkingGateway("sandbox", $apikey,"sandbox");
 
 				$gateway->sendMessage($phone_number, $message); 

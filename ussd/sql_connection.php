@@ -1,6 +1,6 @@
 <?php
 
-$sqliCon = new mysqli("localhost","root","","tree_trackerr");
+$sqliCon = new mysqli("localhost","root","J!8orB@nXxoQ,FU-","football");
 
 $sqliCon->query("CREATE DATABASE IF NOT EXISTS ussd");
 
