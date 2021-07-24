@@ -1,7 +1,7 @@
 <?php
-header("Content-type:text/plane");
+header("Content-type:text\plane");
 
-require('../AfricasTalkingGateway.php');
+require('..\AfricasTalkingGateway.php');
 
 require('sql_connection.php');
 
@@ -144,7 +144,7 @@ switch ($level) {
 
 		break;
 }
-
+?>
 
 
 
